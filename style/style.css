@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("/img/fundo.png");
+    background-repeat: repeat;
+    background-size: 50px;
+    background-position: 50% 0;
+}
+
+.container {
+    width: 100vh;
+    height: 90vh;
+    margin: 0px auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#202e17;
+    border-radius: 30px;
+    border: 10px solid #9ac503;
+    padding: 30px 0 20px 0;
+}
+
+#snake {
+    width: 700px;
+    height: 700px;
+}
+
+#snake-text {
+    width: 240px;
+}
+
+.logo {
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding: 0;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.logo p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 20px 0 0 0;
+    padding: 0;
+    font-size: 80px;
+    justify-content: center;
+    align-items: end;
+    color: #688601;
+}
+
+.credito {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #688601;
+    font-weight: 500;
+}
+
+.credito a{
+    font-size: 30px;
+    font-family: cursive;
+    color: #9ac503;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 8px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer ul {
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+.footer ul li {
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.footer ul li a {
+    color: #9ac503;
+}
+
+.footer ul li a:hover{
+    background-color: #9ac503;
+    color: #202e17;
+    transition: 200ms;
+}
